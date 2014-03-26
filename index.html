@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Jquery-socialize : A plugin to add social buttons to any html tag (1 or more at once) with the current URL as link for the like buttons or adding the URL of images" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Jquery-socialize</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dactivo/jquery-socialize">View on GitHub</a>
+
+          <h1 id="project_title">Jquery-socialize</h1>
+          <h2 id="project_tagline">A plugin to add social buttons to any html tag (1 or more at once) with the current URL as link for the like buttons or adding the URL of images</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/dactivo/jquery-socialize/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/dactivo/jquery-socialize/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="jquery-socialize" class="anchor" href="#jquery-socialize"><span class="octicon octicon-link"></span></a>jquery-socialize</h1>
+
+<p>A plugin to add social buttons to any html tag (1 or more at once) with the current URL as link for the like buttons or adding the URL of the image.
+There are a lot of things that can be configured:</p>
+
+<pre>
+var  settings = jQuery.extend({
+           networks:['facebook','plus','pin','twitter'],
+           // the default social buttons that will be shown, the order is that used appending:true, 
+           //if false, the buttons are inserted after the tag, perfect for img tags
+            /*****Example:&lt;div id="layersocialized"&gt;&lt;/div&gt;&lt;div class="postSocialContent"&gt;&lt;!--buttons--&gt;&lt;/div&gt;<br> //if true, you append the code to a tag<br> &lt;div id="layersocialized"&gt;&lt;div class="postSocialContent"&gt;&lt;!--buttons are inside the tag--&gt;&lt;/div&gt;&lt;/div&gt;
+            *********/
+            big: false, //for big buttons, mark as true
+            attrURL:'', // if empty, the URL of the buttons would be current page (window.location.href) 
+            //if not empty, it would take the value of the attribute you specify
+            //for an image, you must specify 'src', for a link would be 'href'
+            //the frequent values are or '' or 'src'
+            rerender:false, //in case you don't see the buttons, try assigning true to rerender.
+            initscripts:true,//this installs the scripts of the social networks you use
+            fbHTML:"", //you can change the HTML used for fb, the only thing you must include is {location_href} for the URL
+            plusHTML:"", //you can change the HTML used for gplus, the only thing you must include is {location_href} for the URL
+            pinHTML:"", //you can change the HTML used for pin, the only thing you must include is {location_href} for the URL
+            twitterHTML:"", //you can change the HTML used for twitter, the only thing you must include is {location_href} for the URL
+            fbcode: 1, //this is an extra option, to use HTML5 option of facebook code instead of iframe code
+            //1: it's HTML5 code, 2: it's iframe code
+            language: 'es_ES', //this is for example for facebook button            
+        }, options );
+</pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Jquery-socialize maintained by <a href="https://github.com/dactivo">dactivo</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
