@@ -27,7 +27,7 @@
     "bugs": "https://github.com/dactivo/jquery-socialize/issues",
     "homepage": "https://github.com/dactivo/jquery-socialize",
     "docs": "https://github.com/dactivo/jquery-socialize",
-    "download": "http://code.jquery.com/#share",
+    "download": "https://github.com/dactivo/jquery-socialize/zipball/master",
     "dependencies": {
         "jquery": ">=1.5"
     }
