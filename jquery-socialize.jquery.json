@@ -6,7 +6,7 @@
         "social",
         "share"
     ],
-    "version": "1.0",
+    "version": "0.1.1",
     "author": {
         "name": "D-ACTIVO",
         "url": "http:www.d-acitvo.com"
@@ -16,6 +16,12 @@
             "name": "D-activo",
             "email": "d-a@d-a.es",
             "url": "http://www.d-a.es"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "Apache License 2.0 (Apache-2.0)",
+            "url": "https://github.com/dactivo/jquery-socialize"
         }
     ],
     "bugs": "https://github.com/dactivo/jquery-socialize/issues",
