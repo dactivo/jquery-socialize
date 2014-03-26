@@ -1,0 +1,28 @@
+{
+    "name": "jquery-socialize",
+    "title": "jQuery Socialize",
+    "description": "A plugin to add social buttons to any html tag (1 or more at once) with the current URL as link for the like buttons or adding the URL of the image.",
+    "keywords": [
+        "social",
+        "share"
+    ],
+    "version": "1.0",
+    "author": {
+        "name": "D-ACTIVO",
+        "url": "http:www.d-acitvo.com"
+    },
+    "maintainers": [
+        {
+            "name": "D-activo",
+            "email": "d-a@d-a.es",
+            "url": "http://www.d-a.es"
+        }
+    ],
+    "bugs": "https://github.com/dactivo/jquery-socialize/issues",
+    "homepage": "https://github.com/dactivo/jquery-socialize",
+    "docs": "https://github.com/dactivo/jquery-socialize",
+    "download": "http://code.jquery.com/#share",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
