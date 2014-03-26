@@ -142,7 +142,7 @@
         	s='script';
         	var js, fjs = d.getElementsByTagName(s)[0];
         	if (d.getElementById(id)) return;
-        	js = d.createElement(s); js.id = id;
+        	js = d.createElement(s); js.id = id;         
         	js.src = thesrc;
         	if(id=="pinterest-js"){
         		js.setAttribute("data-pin-build","parsePinBtns");

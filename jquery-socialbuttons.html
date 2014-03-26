@@ -25,7 +25,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed posuere ni
 
 
 <script type="text/javascript">
-	 
+
+if(window.location.href.substr(0,4)=="file") alert("you cannot use socialize from file system, it must be from a virtual directory. Social networks refuse paths like file:....");
+
 $(function(){
 	$("#articulo").socialize();
 })
