@@ -9,10 +9,7 @@ var  settings = jQuery.extend({
        	   networks:['facebook','plus','pin','twitter'],
        	   // the default social buttons that will be shown, the order is that used appending:true, 
        	   //if false, the buttons are inserted after the tag, perfect for img tags
-          	/*****Example:
-					<div id="layersocialized"></div><div class="postSocialContent"><!--buttons--></div>
-				//if true, you  append the code to a tag
-				<div id="layersocialized"><div class="postSocialContent"><!--buttons are inside the tag--></div></div>
+          	/*****Example:&lt;div id="layersocialized"&gt;&lt;/div&gt;&lt;div class="postSocialContent"&gt;&lt;!--buttons--&gt;&lt;/div&gt;<br /> //if true, you append the code to a tag<br /> &lt;div id="layersocialized"&gt;&lt;div class="postSocialContent"&gt;&lt;!--buttons are inside the tag--&gt;&lt;/div&gt;&lt;/div&gt;
           	*********/
           	big: false, //for big buttons, mark as true
 			attrURL:'', // if empty, the URL of the buttons would be current page (window.location.href) 
