@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tests</title>
+ 
+ <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="jquery-socialize.js"></script>
+
+<style type="text/css">
+	.postSocialContent{
+		clear:both;
+	}
+#thefoto{margin:30px;}
+.clearing{clear:both;}
+</style>
+</head>
+<body>
+
+  
+  <h1>ALL THE SOCIAL NETWORKS WITH URL OF THE CURRENT PAGE</h1>
+<div id="articulo">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed posuere nisl, ut feugiat libero. Donec nec eleifend neque, ut ornare quam. Morbi pulvinar vulputate dui a dictum. Donec at dolor vitae erat lacinia consectetur eu non ante. Ut suscipit mollis orci sit amet mollis. Donec feugiat sed magna vitae convallis. Curabitur pretium tortor sit amet erat faucibus, ac consequat arcu lacinia. Integer suscipit augue a risus auctor egestas. Fusce vestibulum metus sit amet quam lobortis sodales. Mauris sit amet commodo lorem. Aliquam pharetra imperdiet ante, in fringilla mauris sagittis ut.
+</div>
+
+
+<script type="text/javascript">
+	 
+$(function(){
+	$("#articulo").socialize();
+})
+</script>
+<br class="clearing"/>
+ <h1>ALL THE SOCIAL NETWORKS WITH BIG BUTTONS</h1>
+<div id="big">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed posuere nisl, ut feugiat libero. Donec nec eleifend neque, ut ornare quam. Morbi pulvinar vulputate dui a dictum. Donec at dolor vitae erat lacinia consectetur eu non ante. Ut suscipit mollis orci sit amet mollis. Donec feugiat sed magna vitae convallis. Curabitur pretium tortor sit amet erat faucibus, ac consequat arcu lacinia. Integer suscipit augue a risus auctor egestas. Fusce vestibulum metus sit amet quam lobortis sodales. Mauris sit amet commodo lorem. Aliquam pharetra imperdiet ante, in fringilla mauris sagittis ut.
+</div>
+
+
+<script type="text/javascript">
+	 
+$(function(){
+	$("#big").socialize({big:true});
+})
+</script>
+<br class="clearing"/>
+ <h1>LESS NETWORKS IN ANOTHER ORDER</h1>
+<div id="less">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed posuere nisl, ut feugiat libero. Donec nec eleifend neque, ut ornare quam. Morbi pulvinar vulputate dui a dictum. Donec at dolor vitae erat lacinia consectetur eu non ante. Ut suscipit mollis orci sit amet mollis. Donec feugiat sed magna vitae convallis. Curabitur pretium tortor sit amet erat faucibus, ac consequat arcu lacinia. Integer suscipit augue a risus auctor egestas. Fusce vestibulum metus sit amet quam lobortis sodales. Mauris sit amet commodo lorem. Aliquam pharetra imperdiet ante, in fringilla mauris sagittis ut.
+</div>
+
+
+<script type="text/javascript">
+	 
+$(function(){
+	$("#less").socialize({big:true,networks:['facebook','plus']});
+})
+</script>
+
+<br class="clearing"/>
+ <h1>ALL THE SOCIAL NETWORKS WITH URL OF THE IMAGE</h1>
+<div>
+	<img src="http://www.d-a.es/assets/img/logoDA.png" class="marcoblancofoto" id="thefoto"/>
+</div>
+    
+<script type="text/javascript">
+	 
+$(function(){
+	$("#thefoto").socialize({attrURL:'src',appending:false});
+})
+</script>
+
+
+
+</body>
+</html>
